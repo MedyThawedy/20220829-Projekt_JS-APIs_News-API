@@ -37,3 +37,7 @@ a {
   display: flex;
   justify-content: center;
 }
+
+body>header>nav {
+  color: lightgreen;
+}
