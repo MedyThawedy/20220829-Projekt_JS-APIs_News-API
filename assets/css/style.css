@@ -1,0 +1,39 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  align-items: stretch;
+  margin-top: 5vh;
+}
+
+main>article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+main>article img {
+  max-width: 100%;
+}
+
+a {
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: black;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  padding: 0 20px 20px;
+}
+
+#mainParentElement>article>div>p:nth-child(3) {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
